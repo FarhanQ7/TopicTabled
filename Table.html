@@ -1,0 +1,101 @@
+<!--
+TITLE: Tables (HTML File)
+AUTHOR: Farhan Qureshi
+CREATE DATE: 11/25/19
+PURPOSE: Topic has been Tabled
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>Tables</title>
+
+<link rel="stylesheet" type="text/css" href="Tables.css"/>
+
+</head>
+
+<body>
+
+	<table>
+		<!-- Text Heading  -->
+	  <h1>
+			Top 5 GPU
+
+		</h1>
+		<!-- List of GPUs -->
+		<tr>
+			<th>GPUs</th>
+			<th>Score</th>
+			<th>GPU</th>
+			<th>Base/Boost</th>
+			<th>Memory</th>
+			<th>Power</th>
+			<th>Price</th>
+			<th>Worth it?</th>
+		</tr>
+		<!-- Nvidia Titan RTX -->
+		<tr>
+			<th class="gpus">Nvidia Titan RTX</th>
+			<td> 100 </td>
+			<td rowspan="2" class="perf">
+			Similar Archetecture
+				<ul>
+					<li>
+						TU102
+					</li>
+					<li>
+						TU102
+					</li>
+				</ul>
+			</td>
+			<td> 1350/1770 MHz </td>
+			<td> 24GB GDDR6	</td>
+			<td> 280W </td>
+			<td  rowspan="3" class="perf2"> $2000</td>
+			<td> Nope </td>
+		</tr>
+				<!-- Nvidia GeForce RTX 2080 Ti -->
+		<tr>
+			<th class="perf">Nvidia GeForce RTX 2080 Ti</th>
+			<td> 98.4 </td>
+
+			<td class="perf3">1350/1635 MHz	</td>
+			<td> 11GB GDDR6	</td>
+			<td class="perf3">260W</td>
+			<td>Maybe</td>
+
+		</tr>
+				<!-- Nvidia GeForce RTX 2080 Super -->
+		<tr>
+			<th class="perf">Nvidia GeForce RTX 2080 Super</th>
+			<td> 98.2</td>
+			<td> TU104 </td>
+			<td class="perf3">1650/1815 MHz	</td>
+			<td rowspan="2" class="perf4">8GB GDDR6	</td>
+			<td class="perf3">250W</td>
+			<td> Yes </td>
+
+		</tr>
+				<!-- Nvidia GeForce RTX 2080 -->
+		<tr>
+			<th class="perf">Nvidia GeForce RTX 2080</th>
+			<td> 96.1 </td>
+			<td> TU104</td>
+			<td> 1515/1800 MHz	</td>
+
+			<td> 250W </td>
+			<td> $749 </td>
+			<td> nope </td>
+		</tr>
+				<!-- Nvidia Titan X-->
+		<tr>
+			<th class="perf">Nvidia Titan X</th>
+			<td> 96.0 </td>
+			<td colspan="5" class="perf5">Irrelevant</td>
+			<td> Buy it NOW</td>
+		</tr>
+	</table>
+
+</body>
+</html>

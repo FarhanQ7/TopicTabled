@@ -1,0 +1,84 @@
+/* TITLE: Tables (CSS File)
+AUTHOR: Farhan Qureshi
+CREATE DATE: 11/25/19
+PURPOSE: Topic has been Tabled
+*/
+
+
+body {
+  background: green;
+}
+
+table {
+  /* centers the table */
+  margin: auto;
+  /* adds a gray border around entire table, and collapses the table so there is only one line separating columns and rows */
+  border: 5px solid silver;
+  border-collapse: collapse;
+
+}
+
+/* adds padding and a border around each td and th */
+td, th {
+  border: 4px solid lightblue;
+  padding: 5px;
+}
+
+
+
+/* adds a background color to the th */
+th {
+  background-color:lightblue;
+}
+
+/* makes the time header column a different color than top heading row */
+th.time {
+  background-color:rgb(89, 199, 254);
+  color: black;
+}
+
+/* sets the color for all of the td cells */
+td {
+  background-color: rgba(77, 205, 245, 0.13);
+  color: blue;
+  text-align: center;
+}
+
+/* adds a border around the ul */
+ul {
+    border: 3px solid lightblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* makes sure bullet points are aligned to the left, changes style type to square */
+li {
+  text-align: left;
+  list-style-type: square;
+  color: black;
+}
+
+/* gives a background color */
+.perf {
+  background-color: silver;
+}
+
+/* gives a background color */
+.perf2 {
+  background-color: white;
+}
+
+/* gives a background color */
+.perf3 {
+  background-color: rgb(199, 236, 173);
+}
+
+/* gives a background color */
+.perf4 {
+  background-color: rgb(255, 167, 132);
+}
+
+/* gives a background color */
+.perf5 {
+  background-color: rgb(217, 122, 145);
+}
